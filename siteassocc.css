@@ -1,20 +1,16 @@
 body{
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- font-size: 16px;
- 
-
-}
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: honeydew;
+ }
+/*Barre de navigation*/
 .header1{
-    /*background-image: url(/Users/bryan/Downloads/pexels-pixabay-235925.jpg);
-    background-size:50em;*/
     background-color:lightseagreen;
     height: 20vh;
     font-size: 1.5rem;
     box-shadow: 2px 3px 10px gray;
-    
-
 }
+
 .list{
     list-style:none;
     
@@ -25,23 +21,15 @@ body{
     font-size: 1.5rem;
 }
 
-
-
-
+/* Présentation de la page*/
 .article1{
-background-image:url(/Users/bryan/Downloads/pexels-rodnae-productions-6646918.jpg);
-background-size: 50em;
-background-repeat: no-repeat;
-height: 70vh;
-margin-bottom: 1em;
-position:relative;
-
-
+    /*background-image:url(/Users/bryan/Downloads/pexels-rodnae-productions-6646918.jpg);*/
+    background-size: 50em;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin-bottom: 1em;
+    position:relative;
 }
-
-
-
-
 
 .aside-bottom{
     height: 40vh;
@@ -100,6 +88,7 @@ position:relative;
      color:lightseagreen;
  }
 
+ /* Image d'accueil*/
 .img-header{ 
      background-image:url(/Users/bryan/Downloads/pexels-rodnae-productions-6646918.jpg);
      height: 30em;
@@ -123,19 +112,56 @@ position:relative;
      left:14em;
      border-radius: 50%;
      text-decoration: none;
-       
  }
 
  .img-header > div a {
      text-decoration: none;
      color:whitesmoke;
  }
+ /*animation*/
+@keyframes changeRotation{
+    20%{ transform: rotate(0deg) translateX(0px);}
+    
+    90%{ transform: rotate(360deg) translateX(0px);}
+}
  .img-header > div:hover {
-  background-color: lightcoral;
-  transition: background 0.4s ease-in 0.3s;
+  animation: 1s ease-in 0.5s infinite alternate changeRotation;  
   list-style:none;
  }
 
+
+
  .card img {
      opacity: 90%;
+ }
+
+
+ .article2{
+    background-image:url(/Users/bryan/Desktop/banana-g7eb8c443f_1920.jpg);
+    background-size: 70vh 40vw;
+    background-repeat: no-repeat;
+    background-position: 5em;
+    position:absolute;
+   
+ }
+
+ .article2 a{
+    position:relative;
+    bottom: 17em;
+    
+ }
+
+ /*FOOTER*/
+
+ footer{
+    width: 100%;
+    margin-top: 3vh;
+    background-color:lightseagreen;
+    box-shadow: 2px -3px 10px gray;
+   margin: 0%;
+ }
+
+
+ footer > ul li{
+    list-style: none;
  }

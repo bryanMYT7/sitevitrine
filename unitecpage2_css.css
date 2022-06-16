@@ -1,0 +1,57 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: honeydew;
+ }
+ 
+/*Barre de navigation*/
+.header1{
+    background-color:lightseagreen;
+    height: 20vh;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 10px gray;
+}
+
+
+/*Artices*/
+.article1 img{
+height: 20em;
+width: 25em;
+margin: 1em;
+border-radius: 10%;
+}
+.article2 img{
+height: 20em;
+width: 25em; 
+margin: 1em;
+border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    margin-top: 3vh;
+    background-color:lightseagreen;
+    box-shadow: 2px -3px 10px gray;
+     width: 100%;
+      margin-top: 3em;
+ }
+
+
+ footer > ul li{
+    list-style: none;
+    text-decoration: none;
+ }
