@@ -4,6 +4,10 @@ body{
     background-color: honeydew;
  }
 /*Barre de navigation*/
+header > nav {
+    bottom:1em;
+    font-size:3vh;
+}
 .header1{
     background-color:lightseagreen;
     height: 20vh;
@@ -21,6 +25,15 @@ body{
     font-size: 1.5rem;
 }
 
+/*Headr 2 */
+.header2{
+    height: 70vh;
+    background-color:black;
+}
+.header2 > div {
+    font-size: 3em;
+    color: whitesmoke;
+}
 /* Présentation de la page*/
 .article1{
     /*background-image:url(/Users/bryan/Downloads/pexels-rodnae-productions-6646918.jpg);*/
@@ -93,7 +106,7 @@ body{
      background-image:url(/Users/bryan/Downloads/pexels-rodnae-productions-6646918.jpg);
      height: 30em;
      background-position: center;
-     background-size: 70vw 55vh;
+     background-size: 65vw 55vh;
      background-repeat: no-repeat;
      position: relative;
        
@@ -108,8 +121,8 @@ body{
      justify-content: center;
      align-items: center;
      position: absolute;
-     top:3em;
-     left:14em;
+     top:5em;
+     left:20em;
      border-radius: 50%;
      text-decoration: none;
  }
@@ -138,7 +151,7 @@ body{
 
  .article2{
     background-image:url(/Users/bryan/Desktop/banana-g7eb8c443f_1920.jpg);
-    background-size: 70vh 40vw;
+    background-size: 68vh 40vw;
     background-repeat: no-repeat;
     background-position: 5em;
     position:absolute;
