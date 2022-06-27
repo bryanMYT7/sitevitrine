@@ -6,7 +6,10 @@ body{
 /*Barre de navigation*/
 header > nav {
     bottom:1em;
-    font-size:3vh;
+    font-size:4vh;
+}
+nav > a {
+    font-size: 4vh;
 }
 .header1{
     background-color:lightseagreen;
@@ -28,11 +31,12 @@ header > nav {
 /*Headr 2 */
 .header2{
     height: 70vh;
-    background-color:black;
+    background-image:url(./integration-g959f609fc_1920.jpg);
 }
 .header2 > div {
     font-size: 3em;
     color: whitesmoke;
+    font-weight: 700;
 }
 /* Présentation de la page*/
 .article1{
@@ -178,3 +182,15 @@ header > nav {
  footer > ul li{
     list-style: none;
  }
+
+
+ footer li a {
+    margin: 0%;
+    color: white;
+    list-style:none;
+    font-style:3em
+ }
+
+footer h3{
+    color: white;
+}
